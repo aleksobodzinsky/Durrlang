@@ -2,7 +2,7 @@
 
 My own esoteric language, including a Python interpreter! :P
 
-Durrlang — because Brainfuck was too elegant.
+Durrlang - because Brainfuck was too elegant.
 
 ## Usage
 
