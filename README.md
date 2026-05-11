@@ -1,16 +1,19 @@
 # Durrlang
+
 My own esoteric language, including a Python interpreter! :P
 
 Durrlang — because Brainfuck was too elegant.
 
-Usage:
+## Usage
 
-durr = +1 in current memory cell
-durr? = -1 in current memory cell
-durr! = ouput (Brainfrick .)
-durr... = move the memory pointer one cell to the right
-DURR = move the memory pointer one cell to the left
-durr. - start of a loop (Brainfrick [)
-durr.. - end of a loop (Brainfrick ])
+| Command | Description |
+| :--- | :--- |
+| `durr` | Increment value in current memory cell (+1) |
+| `durr?` | Decrement value in current memory cell (-1) |
+| `durr!` | Output (Brainfuck `.`) |
+| `durr...` | Move memory pointer one cell right |
+| `DURR` | Move memory pointer one cell left |
+| `durr.` | Start of a loop (Brainfuck `[`) |
+| `durr..` | End of a loop (Brainfuck `]`) |
 
-THIS LANGUAGE IS HEAVILY INSPIRED BY BRAINFRICK, ALTHOUGHT EVERYTHING I MADE WAS ORIGINAL™
+**THIS LANGUAGE IS HEAVILY INSPIRED BY BRAINFUCK, ALTHOUGH EVERYTHING I MADE WAS ORIGINAL™**
